@@ -11,6 +11,7 @@ allowed-tools:
   - WebSearch
   - mcp__exa__web_search_exa
 ---
+```
 
 # 微信公众号发布工具
 
@@ -120,4 +121,3 @@ export REPLICATE_API_TOKEN="your_token"
 
 3. **错误处理**：遇到任何错误，向用户报告具体错误信息，等待用户决定下一步操作。
 
-```
