@@ -1,3 +1,4 @@
+```
 ---
 name: wechat-ai-publisher
 description: 发布文章到微信公众号草稿箱。当用户说"发布公众号"、"发布到微信"、"publish wechat"时触发。
@@ -118,3 +119,5 @@ export REPLICATE_API_TOKEN="your_token"
 2. **图片生成失败时立即停止**：如果 Replicate API 返回错误或网络问题导致图片生成失败，立即告知用户并停止流程，不要使用 `--skip-images` 强行继续（会导致使用旧的缓存图片）。
 
 3. **错误处理**：遇到任何错误，向用户报告具体错误信息，等待用户决定下一步操作。
+
+```
